@@ -1,0 +1,12 @@
+body{
+    background-image: url(/images/loginbg.png);
+    background-size: cover;
+    position: center;
+}
+
+
+
+.form-outline input{
+    background-color: rgb(199, 172, 140)
+}
+

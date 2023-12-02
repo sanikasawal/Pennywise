@@ -1,0 +1,113 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(4, 65, 65); */
+    background: rgb(202, 172, 135);
+    padding: 30px;
+    background-image: url(../../assets/images/mainbg.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.container{
+    width: 45%;
+    height: 90%;
+    padding: 30px;
+    /* padding-top: -105px; */
+    margin-top: -100px;
+   /* background-color: #FFB181; */
+    position: absolute;
+    background-color: rgb(85, 66, 54);
+    left: 10%;
+}
+
+p{
+    padding-left: 22%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    margin-top: -19px;
+}
+
+.input-box input{
+    height: 100%;
+    width: 50%;
+    /* background:rgba(156, 220, 245, 0.973); */
+    background-color:rgb(202, 172, 135);
+    outline-color: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#calculate{
+    color: black;
+    font-weight: 200;
+    margin-top: 40px;
+    background: rgb(202, 172, 135);
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+#pay{
+    color: black;
+    font-weight: 200;
+    margin-top: 40px;
+    background: rgb(202, 172, 135);
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4eaf92;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left:60%;
+    margin-top: -7%;
+}
+

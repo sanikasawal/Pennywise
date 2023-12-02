@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #ffffffa6;
+	background-color: #76655F;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+main {
+	width: 400px;
+	background-color: #CCBC9C;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+header {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+h1 {
+	font-weight: bold;
+
+	font-size: 2.5rem;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 1rem 1.5rem;
+	margin: 0.5rem 0;
+	border-radius: 2rem;
+	font-size: 1.2rem;
+}
+
+button {
+	margin-top: 1rem;
+	outline: none;
+	border: none;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+    
+}
+
+#displayResult {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.message {
+	padding: 0.7rem 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 2rem;
+    font-style: italic;
+}
+
+.error {
+	background-color: #76655F;
+}
+
+.success {
+	background-color: #28732a;
+}
+
+.calc{
+	margin-left: 15%;
+}
+.pay{
+	margin-left: 60%;
+	margin-top: -18%;
+}
